@@ -1,0 +1,10 @@
+## Step 1 Instructions:
+What are your favorite books? You can make a database table to store them in! In this first step, create a table to store your list of books. It should have columns for id, name, and rating.
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+## Step 2 Instructions:
+
+INSERT INTO books VALUES (1, "Hunger Games", 8.7);
+INSERT INTO books VALUES (2, "Monopoly", 9.0);
+INSERT INTO books VALUES (3, "How to", 10.0);
